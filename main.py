@@ -11,3 +11,6 @@ num_end = int(input('Escribe un numero final'))
 for num in range(num_ini, num_end + 1):
     if num % 2 != 0:
         print(num, end = ' ')
+
+for numero in reversed(range(1, 101)):
+    print(numero)
